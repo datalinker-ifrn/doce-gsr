@@ -2,5 +2,9 @@
 icon: lucide/rocket
 ---
 
-# Documentação de Gerência e Segurança de Redes de Computadores
+# Início
 
+Este é o modelo de documentação oficial para disciplina Gerência e Segurança de Redes de Computadores.
+
+
+Você deve 

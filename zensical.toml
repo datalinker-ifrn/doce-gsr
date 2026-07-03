@@ -12,6 +12,24 @@ Copyright &copy; 2026 The authors
 #   { "Markdown in 5min" = "markdown.md" },
 # ]
 
+nav = [
+  "index.md",
+
+  { "Serviços de Rede" = [
+      "firewall.md",
+      "ldap.md",
+      "zabbix.md",
+    ]
+  },
+
+  { "Tutorial" = [
+      "tutorial/index.md",
+      "tutorial/markdown.md",
+      "tutorial/exemplos.md",
+    ]
+  }
+]
+
 #extra_css = ["stylesheets/extra.css"]
 
 #extra_javascript = ["javascripts/extra.js"]
@@ -33,8 +51,8 @@ features = [
     "content.footnote.tooltips",
     "content.tabs.link",
     "content.tooltips",
-    # "header.autohide",
-    # "navigation.expand",
+    "header.autohide",
+    #l"navigation.expand",
     "navigation.footer",
     "navigation.indexes",
     "navigation.instant",
