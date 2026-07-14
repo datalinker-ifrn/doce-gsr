@@ -9,7 +9,7 @@ repo_url = "https://github.com/datalinker-ifrn/doce-gsr"
 edit_uri = "edit/main/docs/"
 
 copyright = """
-Copyright &copy; 2026 The authors
+Copyright &copy; 2026 Fabiano Silva & Bruno Seabra
 """
 # Read more: https://zensical.org/docs/setup/navigation/
 # nav = [
