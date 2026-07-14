@@ -56,7 +56,7 @@ Segue um pequeno questionário 5W1H para Implantação de Firewall Linux.
 
 Qual ferramenta de firewall Linux será adotada?
 
-- [ ] iptables
+- [x] iptables
 - [ ] UFW
 - [ ] firewalld
 - [ ] A definir após análise técnica
