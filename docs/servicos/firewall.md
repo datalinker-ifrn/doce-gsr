@@ -46,11 +46,17 @@ Segue um pequeno questionário 5W1H para Implantação de Firewall Linux.
 ## How (Como?)
 
 1. Como as regras serão definidas e documentadas?
-1. Como será realizado o backup da configuração do firewall?
-1. Como serão realizados os testes de conectividade e segurança?
-1. Como será feita a manutenção e atualização das regras?
-1. Como será o processo de contingência em caso de bloqueio indevido?
-1. Como será garantida a persistência das regras após reinicializações?
+R. As regras serão definidas conforme a necessidade dos serviços da Datalinker e documentadas com sua finalidade, origem, destino e responsável.
+2. Como será realizado o backup da configuração do firewall?
+R. O backup será realizado com o comando iptables-save, armazenando a configuração em local seguro para futura restauração.
+3. Como serão realizados os testes de conectividade e segurança?
+R. Serão executados testes de acesso aos serviços publicados e verificadas as portas liberadas e bloqueadas após cada alteração.
+4. Como será feita a manutenção e atualização das regras?
+R. As regras serão revisadas periodicamente e atualizadas sempre que houver mudanças na infraestrutura ou nos serviços.
+5. Como será o processo de contingência em caso de bloqueio indevido?
+R. A configuração anterior será restaurada por meio do backup, restabelecendo rapidamente o funcionamento dos serviços.
+6. Como será garantida a persistência das regras após reinicializações?
+R. As regras serão salvas permanentemente e carregadas automaticamente durante a inicialização do sistema.
 
 ## Extra
 
