@@ -4,7 +4,7 @@ icon: lucide/brick-wall-fire
 
 # Firewall
 
-![Tela inicial do Zabbix](../imagens/regras.png)
+![Tela de regras do Firewall](../imagens/regras.png)
 
 Segue um pequeno questionário 5W1H para Implantação de Firewall Linux.
 
