@@ -4,7 +4,7 @@ icon: lucide/chart-line
 
 # Zabbix
 
-![Tela inicial do Zabbix](./imagens/zabbix-tela-inicial.png)
+![Tela inicial do Zabbix](../imagens/ZabbixMatriz.gif)
 
 Questionário 5W1H para Implantação de um Sistema de Monitoramento (Zabbix ou Nagios)
 
