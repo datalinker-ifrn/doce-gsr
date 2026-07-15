@@ -4,6 +4,8 @@ icon: lucide/globe-lock
 
 # VPN
 
+![Tela da VPN](../imagens/vpn.png)
+
 Questionário 5W1H para Implantação de VPN Linux
 
 ## What (O quê?)
